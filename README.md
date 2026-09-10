@@ -2,6 +2,7 @@
 Super Organization of Science, Inc. (SoS)
 
 Welcome to the water-filtration-systems repository. This is the official open-source blueprint repository for localized, decentralized water security. Operating out of our flagship prototype at the SOS Community Lab (SOSCL) in Newport, Kentucky, our goal is simple: decouple clean drinking water from commercial utility grids using the power of open-source science.
+
 🔬 Core Philosophy & Rules
 
     The Anti-Patent Mandate: Everything in this repository belongs to the global human collective. These blueprints cannot be patented, locked behind corporate paywalls, or monetized for exclusive private gain.
@@ -16,12 +17,19 @@ This repository is structured into modular components so that makers, fabricator
 Plaintext
 
 water-filtration-systems/
+
 │
+
 ├── README.md                      <-- Overview, BOM, and core theory
+
 ├── LICENSE                        <-- CERN-OHL-S / CC BY-SA 4.0 license files
+
 ├── bill-of-materials/             <-- Cost spreadsheets and upcycled parts lists
+
 ├── CAD-and-STLs/                  <-- 3D printable brackets, shims, and manifold parts
+
 ├── assembly-manuals/              <-- Step-by-step text and visual guides
+
 └── sensor-code/                   <-- IoT telemetry and Raspberry Pi data-logging scripts
 
 🛠️ The Dual-Source Closed-Loop Architecture
@@ -48,6 +56,7 @@ Raw collection is pushed through a rigorous, low-maintenance purification stack 
 3. Renter-Friendly "Over-the-Sill" Deployment
 
 To bypass landlord restrictions, purified water is fed indoors through a thin, flexible food-grade silicone tube passing through a custom insulated window-insert panel (mirroring portable AC unit brackets), feeding a dedicated countertop dispenser without leaving structural damage.
+
 🚀 Getting Started & Replication
 
     Clone or Sync: Pull these repositories locally or sync them to your local Raspberry Pi kiosk node.
